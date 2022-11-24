@@ -1,0 +1,170 @@
+.company-name{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.subheading{
+    font-family: 'Abel', sans-serif;
+    font-style: italic;
+}
+
+.view-inventory{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 80px;
+  font-size: 3.5em;
+  background-color: #F7ECDE;
+  border-color: #F7ECDE;
+}
+
+.instagram{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 80px;
+  font-size: 3.5em;
+  background-color: #F7ECDE;
+  border-color: #F7ECDE;
+
+}
+
+.font-color-pink{
+  color: rgb(243, 12, 147);
+}
+
+.neon-button{
+  
+  color: rgb(243, 12, 147);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 2em;
+  padding: .25em 1em;
+  border: rgb(243, 12, 147) .125em solid;
+  text-shadow: 0 0 .2em rgb(10, 10, 10),
+  0 0 .5em rgb(243, 12, 147);
+  background-color: black;
+  box-shadow: inset 0 0 .5em rgb(243, 12, 147),
+  0 0 .5em rgb(243, 12, 147);
+  position: relative;
+  text-decoration: none;
+  transition: background-color 200ms linear;
+}
+
+.neon-button::before{
+  pointer-events: none;
+  content: ' ';
+  position: absolute;
+  background: rgb(243, 12, 147);
+  top: 120%;
+  bottom: 0;
+  width: 70%;
+  height: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, .3);
+  filter: blur(1.5em);
+  text-decoration: none;
+}
+
+.neon-button:hover{
+  background: rgb(243, 12, 147);
+  color: black;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.neon-button::after{
+  content: ' ';
+  position: absolute;
+  border-radius: 2em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em .4em rgb(243, 12, 147);
+  opacity: 0;
+  transition: 200ms linear;
+}
+
+.neon-button:hover::after{
+  opacity: 1;
+}
+
+
+
+.buttons{
+  margin-top: 350px;
+}
+.contact-us{
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 11%;
+  font-size: 3.5em;
+
+  background-color: #FFDE00;
+  border-color: #FFDE00;
+}
+.center{
+  width: 1080px;
+  height:1920px;
+  background-size: contain;
+}
+.gold {
+  color: #FEF9A7;
+}
+
+.btn-gold{
+  background-color: #FEF9A7;
+}
+
+.oceanblue{
+  color: #1D1CE5;
+}
+
+.intro{
+  background-color: black;
+}
+.contact{
+  background-color: black;
+}
+
+.resize{
+  font-size: 20px;
+}
+
+.resize-2{
+  font-size: 25px;
+}
+
+.resize-logo{
+  width: 750px;;
+  height: 420px;
+}
+
+.grid{
+  display: grid;
+  place-items: center;
+
+}
+.map{
+
+  width: 480px;
+  height: 270px;
+}
+
+.text-green{
+  color: #3CCF4E;
+}
+
+.bg-green{
+  background-color: #3CCF4E;
+}
+.new-jersey{
+
+  width: 480px;
+  height: 270px;
+}
+
+.bottom{
+  padding: 100px;
+}
+
+section{
+  padding: 40px;
+}
